@@ -1,8 +1,9 @@
 import "./assets/styles/custom.scss";
 import "./App.css";
+import { NavBar } from "components/Navbar";
 
 function App() {
-  return <h1 className="bg-success text-warning">Hello World</h1>;
+  return <NavBar />;
 }
 
 export default App;
