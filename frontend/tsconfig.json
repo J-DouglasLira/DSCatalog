@@ -22,5 +22,8 @@
   },
   "include": [
     "src"
-  ]
+  ],
+  "module.exports": {
+    "extends": ["@commitlint/config-conventional"]
+  }
 }
