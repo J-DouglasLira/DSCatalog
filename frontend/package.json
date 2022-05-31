@@ -41,8 +41,6 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.0.1",
-    "@commitlint/config-conventional": "^17.0.0",
     "git-commit-msg-linter": "^4.1.3"
   }
 }
