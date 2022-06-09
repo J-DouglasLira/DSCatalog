@@ -12,7 +12,7 @@ export function NavBar() {
               <a href="link" className="active">HOME</a>
             </li>
             <li>
-              <a href="link">CATÁLOGO</a>
+              <a href="link">Catalog</a>
             </li>
             <li>
               <a href="link">ADMIN</a>
