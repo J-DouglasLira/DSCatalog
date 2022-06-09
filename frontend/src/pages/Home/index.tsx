@@ -6,11 +6,8 @@ const Home = () => {
   return (
   <>
     <NavBar />
-
     <div className="home-container">
       <div className="home-card">
-
-
         <div className="home-content-container">
           <h1>Conheça o melhor catálogo de produtos</h1>
         </div>
