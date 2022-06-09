@@ -14,10 +14,7 @@ const Home = () => {
         <div className="home-image-container">
           <MainImage />
         </div>
-
-
       </div>
-
     </div>
   </>);
 }
