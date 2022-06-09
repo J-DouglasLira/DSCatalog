@@ -8,7 +8,7 @@ const ButtonIcon = () => {
         console.log("Hello World");
       }}
     >
-      <p>START YOUR SEARCH NOW</p>
+      <h6>START YOUR SEARCH NOW</h6>
     </button>
   );
 };
