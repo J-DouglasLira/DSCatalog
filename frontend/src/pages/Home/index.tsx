@@ -1,4 +1,3 @@
-import { NavBar } from "components/Navbar";
 import "./styles.css";
 import { ReactComponent as MainImage } from "assets/images/main-image.svg";
 import ButtonIcon from "components/ButtonIcon";
