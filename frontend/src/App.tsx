@@ -1,15 +1,9 @@
 import "./assets/styles/custom.scss";
 import "./App.css";
-import Home from "pages/Home";
-import Catalog from "pages/Catalog";
+import Routers from "Routes";
 
 function App() {
-  return (
-  <>
-    <Home />
-    <Catalog />
-  </>
-  );
+  return <Routers />;
 }
 
 export default App;
