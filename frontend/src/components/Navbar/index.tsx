@@ -16,10 +16,10 @@ export function NavBar() {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/products">Catalog</NavLink>
+              <NavLink to="/products" className="active">Catalog</NavLink>
             </li>
             <li>
-              <NavLink to="/admin">ADMIN</NavLink>
+              <NavLink to="/admin" className="active">ADMIN</NavLink>
             </li>
           </ul>
         </div>
