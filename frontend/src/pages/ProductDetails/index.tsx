@@ -10,7 +10,6 @@ const ProductDetails = () => {
           <ArrowIcon />
           <h2>Voltar</h2>
         </div>
-
         <div className="row">
           <div className="col-xl-6">
             <div className="img-container">
@@ -19,7 +18,6 @@ const ProductDetails = () => {
                 alt="product-name"
               />
             </div>
-
             <div className="name-price-container">
               <h1>Nome do Produto</h1>
               <ProductPrice price={2345.67} />
