@@ -5,17 +5,17 @@ const Navbar = () => {
       <ul>
         <li>
           <a href="link" className="admin-nav-item active">
-            <p>Produtos</p>
+            <p>Products</p>
           </a>
         </li>
         <li>
           <a href="link" className="admin-nav-item">
-            <p>Categorias</p>
+            <p>Category</p>
           </a>
         </li>
         <li>
           <a href="link" className="admin-nav-item">
-            <p>Usuários</p>
+            <p>Users</p>
           </a>
         </li>
       </ul>
