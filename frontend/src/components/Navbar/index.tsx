@@ -1,4 +1,4 @@
-import { NavLink,Link  } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import "./styles.css";
 export function NavBar() {
   return (
@@ -15,10 +15,14 @@ export function NavBar() {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/products" className="active">Catalog</NavLink>
+              <NavLink to="/products" className="active">
+                Catalog
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/admin" className="active">ADMIN</NavLink>
+              <NavLink to="/admin/" className="active">
+                ADMIN
+              </NavLink>
             </li>
           </ul>
         </div>
