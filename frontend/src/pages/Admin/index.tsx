@@ -3,15 +3,15 @@ import Navbar from "./Navbar";
 import "./styles.css";
 
 const Component1 = () => {
-  return <h1>Products 1</h1>;
+  return <h1>Products CRUD</h1>;
 };
 
 const Component2 = () => {
-  return <h1>Categories </h1>;
+  return <h1>Categories CRUD</h1>;
 };
 
 const Component3 = () => {
-  return <h1>Users 2</h1>;
+  return <h1>Users CRUD</h1>;
 };
 
 const Admin = () => {
