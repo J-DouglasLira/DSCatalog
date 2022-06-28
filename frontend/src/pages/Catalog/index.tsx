@@ -5,6 +5,8 @@ import { Product } from "types/product";
 import "./styles.css";
 
 const Catalog = () => {
+
+
   const product: Product = {
     id: 2,
     name: "Smart TV",
