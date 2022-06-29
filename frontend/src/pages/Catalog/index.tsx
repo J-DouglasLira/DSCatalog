@@ -37,7 +37,6 @@ function loadPage() {
   });
   }
 
-
   return (
     <div className="container my-4 catalog-container">
       <div className="row catalog-title-container">
