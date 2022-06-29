@@ -5,8 +5,8 @@ const CardLoader = () => (
     width={800}
     height={575}
     viewBox="0 0 800 575"
-    backgroundColor="#f3f3f3"
-    foregroundColor="#ecebeb"
+    backgroundColor="#ecebeb"
+    foregroundColor="#d6d2d2"
   >
     <rect x="537" y="9" rx="2" ry="2" width="140" height="10" />
     <rect x="14" y="30" rx="2" ry="2" width="667" height="11" />
