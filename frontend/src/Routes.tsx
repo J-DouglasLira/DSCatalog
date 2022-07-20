@@ -1,5 +1,6 @@
 import { NavBar } from "components/Navbar";
 import Admin from "pages/Admin";
+import Auth from "pages/Admin/Auth";
 import Catalog from "pages/Catalog";
 import Home from "pages/Home";
 import ProductDetails from "pages/ProductDetails";
@@ -15,6 +16,8 @@ const Routers = () => {
         <Route path="/products/:productId" element={<ProductDetails />} />
         <Route path="/admin/" element={<Navigate to="/admin/products" />} />
         <Route path="/admin/*" element={<Admin />} />
+        <Route path='/admin/auth' element={<Navigate to="/admin/auth/login" />} />
+        <Route path='/admin/auth/*' element={<Auth />} />
       </Routes>
     </BrowserRouter>
   );
