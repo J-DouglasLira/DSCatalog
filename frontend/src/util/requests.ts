@@ -14,11 +14,11 @@ type LoginData = {
 export const requestBackendLogin = (loginData: LoginData) => {
   const headers = {
     'Content-Type': 'application/x-www-form-urlencoded',
-    Authorization: 'Basic' + window.btoa(CLIENT_ID + ':' + CLIENT_SECRET),
+    Authorization: `Basic ${btoa(`${CLIENT_ID}:${CLIENT_SECRET}`)}`,
   };
   const data = qs.stringify({
     ...loginData,
-    grand_type: 'password',
+    grant_type: 'password',
   });
 
   return axios({
